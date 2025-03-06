@@ -6,6 +6,7 @@
 Игра реализована на фреймворке HECS (гибридный ECS). В основе глобальная стейт система управляющая переходами между состояниями игры. Разрабатывалась в течении 1,5 месяцев командой из двух человек. В данном проекте я по большей части занимался внутренней логикой игры, практически не касаясь работы с UI. Для аналитики использовалась GameAnalytics.
 
 - [YandexFeature](Features/YandexSystem) - Системы, jslib и компоненты для работы Яндекса
+- [LevelGenerationSystem](CustomConfigs) - Конфиг уровня и генератор конфигов уровней.
 - [BombPositionSystem](Systems/Bombs/BombsPositionSystem.cs) - Система позиционирования бомб на основе разворота матрицы в ступенчаты массив.
 - [BombsFlatteningSystem](Systems/Bombs/BombsFlatteningSystem.cs) - Система изменения положения (сплющивания) массива бомб при приближении к краям и при выходе на финишный стейт уровня
 - [LaunchSystem](Systems/Bombs/LaunchBombsSystem.cs) - система рассчета количества и запуска ракет в цель\
@@ -17,3 +18,8 @@
 - [Components](Components) - часть реализованных компонентов и конфигов
 
 Проект прошел модерацию и был опубликован на яндекс играх.
+![изображение](https://github.com/user-attachments/assets/52df3c3f-3359-4f6e-bee6-047250769e40)
+![изображение](https://github.com/user-attachments/assets/093c7e27-461b-4ef9-bc64-754f974a3f85)
+![изображение](https://github.com/user-attachments/assets/4aaaa0d8-34f6-4ff1-9198-200846ac0494)
+
+
