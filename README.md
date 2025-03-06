@@ -7,7 +7,7 @@
 
 - [YandexFeature](Features/YandexSystem) - Системы, jslib и компоненты для работы Яндекса
 - [BombPositionSystem](Systems/Bombs/BombsPositionSystem.cs) - Система позиционирования бомб на основе разворота матрицы в ступенчаты массив.
-- [BombsFlatteningSystem](Systems/Bombs/BombsFlatteningSystem.cs) - Система изменения положения (сплющивания) массива бомб при приближении к краям и при выгоде на финишный стейт уровня
+- [BombsFlatteningSystem](Systems/Bombs/BombsFlatteningSystem.cs) - Система изменения положения (сплющивания) массива бомб при приближении к краям и при выходе на финишный стейт уровня
 - [LaunchSystem](Systems/Bombs/LaunchBombsSystem.cs) - система рассчета количества и запуска ракет в цель\
 - [SteeringSystem](Systems/Bombs/BombSteeringSystem.cs) - система управляющая полетом ракеты, подворачивающая её согласно дуге движения, работает через три AnimationCurve, задающих отклонения для каждой оси (+их рандомные модификаторы для рандомизации кривых полета).
 - [SetAndSwapBombsSystem](Systems/Bombs/BombsSetAndSwapSystem.cs) - система установки новых и обновления (при апгрейде) уже установленных бомб, срабатывает при сборе бонусов/попадании в ловушки
